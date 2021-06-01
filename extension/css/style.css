@@ -1,0 +1,41 @@
+body{
+	width: 250px;
+	height: 350px;
+}
+
+#auth-button{
+	margin: 140px 0;
+}
+
+.auth-area{
+	position: relative;
+	margin: 0;
+	display: none;
+}
+
+#file-area{
+	background: white;
+	display: none;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#btn-logout, #btn-restore, #btn-backup{
+	margin:20px 0;
+}
+
+
+#file-edit{
+	width: 90%;
+	margin: 10px auto 0 auto;
+	resize: none;
+}
+
+#msg{
+	font-size: 0.8em;
+	color:green;
+	display: inline-block;
+	margin-left: 13px;
+}

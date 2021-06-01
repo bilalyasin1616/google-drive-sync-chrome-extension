@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="row auth-area">
+      <div class="col text-center">
+        <button type="button" class="btn btn-primary" id="auth-button">Authenticate</button>
+      </div>  
+    </div>
+    
+    <div id="file-area">
+      <div class="row">
+        <div class="col">
+          <textarea class="form-control" rows="5" id="file-edit"></textarea> 
+          <p id="msg"></p>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <button type="button" class="btn btn-warning" id="btn-logout">Logout</button>   
+        </div>
+      </div>
+      <div class="row">
+        <div class="col text-center">
+          <button type="button" class="btn btn-success" id="btn-backup">Backup</button>
+        </div>
+        <div class="col text-center">
+          <button type="button" class="btn btn-secondary" id="btn-restore">Restore</button>
+        </div>
+      </div>
+      
+      
+    </div>
+  </body>
+</html>
